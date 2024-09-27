@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="6dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginHorizontal="6dp"
+        android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Payment Method"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnEasypaisa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
+        android:padding="15dp"
+        android:layout_marginVertical="20dp"
+        android:text="Easypaisa"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnJazzCash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JazzCash"
+        android:padding="15dp"
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCardPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Payment"
+        android:padding="15dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

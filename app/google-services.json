@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "814584179398",
+    "firebase_url": "https://law-project-25e71-default-rtdb.firebaseio.com",
+    "project_id": "law-project-25e71",
+    "storage_bucket": "law-project-25e71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814584179398:android:662e9867af0b7cd6b705c7",
+        "android_client_info": {
+          "package_name": "com.example.railwaybooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm-TjKLH7sctbcZftizQ2yVCfo9D5SMjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
