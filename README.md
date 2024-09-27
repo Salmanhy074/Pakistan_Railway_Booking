@@ -6,7 +6,7 @@ Hey everyone, it’s **MUHAMMAD SALMAN** here!
 
 I'm excited to share my latest Android project, **Pakistan Railway Booking App**! This app allows users to search for trains, book tickets, and choose from multiple payment methods like Easypaisa, JazzCash, and card payments. The app streamlines the railway booking process and provides a seamless user experience for train travelers.
 
-**If you find this project helpful or interesting, please consider starring the repository on GitHub! I appreciate your support.**
+**If you find this project helpful or interesting, please consider starring the repository on GitHub! Your contribution means a lot.**
 
 APK File: Download the latest APK file of this project and provide feedback 😃.
 
