@@ -62,10 +62,14 @@ class HomeFragment : Fragment() {
         database = FirebaseDatabase.getInstance().reference.child("Trains")
 
         trainAdapter.setOnItemClickListener { train ->
-            // Show payment bottom sheet
-            val paymentBottomSheet = PaymentBottomSheetFragment()
-            paymentBottomSheet.show(parentFragmentManager, "PaymentBottomSheet")
+            // Open SeatSelectionFragment as a full fragment
+            val seatSelectionFragment = SeatSelectionFragment()
+            parentFragmentManager.beginTransaction()
+                .replace(R.id.fragment_container, seatSelectionFragment)
+                .addToBackStack(null)
+                .commit()
         }
+
 
         fetchTrainData()
         loadUserData()
