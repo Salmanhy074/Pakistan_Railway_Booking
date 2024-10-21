@@ -48,7 +48,7 @@ The **Pakistan Railway Booking App** is an Android application built using XML a
 ## Technologies Used
 
 - **XML**: User Interface (UI) Design
-- **Java**: Backend logic and app functionality
+- **Kotlin**: Backend logic and app functionality
 - **Firebase Authentication**: Secure login and registration
 - **Firebase Realtime Database**: Storing train data, user bookings, and payment history
 - **Firebase Storage**: Storing train details and user-related data
